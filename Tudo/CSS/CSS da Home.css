@@ -1,0 +1,20 @@
+		div{
+			background-color: black;
+			width: 26em;
+			margin: 5px;
+			transition: width 2s;
+			}
+		div:hover{
+		 width: 600px;
+		
+			}
+		a{
+		  text-decoration: none;
+		  color: white;
+		  font-size: 1.5em;
+		 }
+		body{
+			 background: url(fundo.jpg);
+			 background-position: top;
+			 background-repeat: no-repeat;
+		}

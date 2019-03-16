@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<title>CSS - Style Page in Cascating</title>
+	<style>
+		*{
+		  margin:0px;
+		 }
+		body{
+			 background-color: black;
+			 margin:0px;
+			}
+		div{
+			color:white;
+			background-color:grey;
+		   }
+		p{
+			background-color:purple;	
+		 }
+		 p:hover{
+			background-color:brown;
+			width:100%;
+			transition: width 2s;
+		 }
+		 
+		 /* Seletor de Classe */
+		 
+		.LetraBranca
+		{
+			color:white;
+		}
+		
+		#Navegacao
+		{
+			font-size:1.5em;
+		}
+		a{
+		  color:white;
+		  text-decoration:none;
+		 }
+	</style>
+
+
+
+ </head>
+ <body>
+	<div id="Navegacao">
+		Navigation Bar
+	</div>
+	<p>
+		Paragraph 1
+	</p>
+	<p style="color:yellow">
+		<a target="_blank" href=https://media.tenor.com/images/2cea9c37aebe131729da51bc6335be07/tenor.gif>Paragraph 2</a>
+	</p>
+	<p style="color:yellow">
+		Paragraph 3
+	</p>
+	<p class="LetraBranca">
+		Paragaph 4
+	</p>
+
+
+ </body>
+</html>
